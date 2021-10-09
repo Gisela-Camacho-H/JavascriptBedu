@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final proyect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Let me help you with your calculations</h1>
+
+
+    <h3>Press Enter to turn this page in dark mode.</h3>
+    <div id="area">
+    <p>Calculate the Area of a triangle:</p>
+    Side #1<input id="input"> 
+    Side #2<input id="input1"> 
+    Side #3<input id="input2"> 
+    <p id="result"></p>
+    <button onclick="myFunction()">Calculate</button>
+    <br><br>
+    </div>
+    <div id="celsius">
+    <p>Convert temperatures celsius - fahrenheit:</p>
+    Celcius: <input id="cel"> 
+    <p id="result1"></p>
+    <button onclick="cToF()">Convert to Fahrenheit</button>
+    <br><br>
+    </div>
+    <br>
+    <div id="fahrenheit">
+    <p>Convert temperatures fahrenheit - celsius:</p>
+    Fahrenheit: <input id="fah"> 
+    <p id="result2"></p>
+    <button onclick="fToC()">Convert to Celsius</button>
+    <br><br>
+    </div>
+    <div id="square">
+        <p>Obtain the square of a number </p>
+        Number <input id="num"> 
+        <p id="result3"></p>
+        <button onclick="square()">Obtain square</button>
+        <br><br>
+        </div>
+    <div id="age">
+        <p>Can I have a credit card? </p>
+        Age <input id="age1" min="18"> 
+        <p id="result4"></p>
+        <button onclick="credit()">Can I?</button>
+        <br><br>
+        </div>
+        <h3>Different timezones</h3>
+    <div id="timeZ">
+        <div class="time">
+            <h2>Mexico City</h2>
+            <p id="mexicoCityTime"></p>
+        </div>
+        <div class="time">
+            <h2>Spain</h2>
+            <p id="spainTime"></p>
+        </div>
+        <div class="time">
+            <h2>Argentina</h2>
+            <p id="argentinaTime"></p>
+        </div>
+        <div class="time">
+            <h2>Germany</h2>
+            <p id="germanyTime"></p>
+        </div>
+        <div class="time">
+            <h2>London</h2>
+            <p id="londonTime"></p>
+        </div>
+        <div class="time">
+            <h2>New York</h2>
+            <p id="newYorkTime"></p>
+        </div>
+    </div>
+        <script src="./main.js"></script>
+</body>
+</html>

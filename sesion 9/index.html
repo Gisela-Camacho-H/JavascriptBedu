@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List With Vanilla<dic</title>
+</head>
+<body>
+    <div class="container">
+        <h3>ToDo List</h3>
+        <!--Add todo list-->
+        <p>
+            <label for="new-task">Add Item</label>
+            <input id="new-task" type="text">
+            <button>Add</button>
+        </p>
+        <h3>Incomplete taks</h3>
+        <ul id="incomplete">
+            <li>
+                <input type="checkbox"/>
+                <label>Learn JS fundamentals</label>
+                <button class="delete" onclick="deleteTask()">Delete</button>
+            </li>
+        </ul>
+        <h3>Incomplete taks</h3>
+        <ul id="complete">
+            <li>
+                <input type="checkbox"/>
+                <label>Learn Web programming fundamentals</label>
+                <button class="delete">Delete</button>
+            </li>
+        </ul>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
